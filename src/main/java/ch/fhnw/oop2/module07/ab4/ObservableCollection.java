@@ -34,6 +34,8 @@ final class ObservableCollection extends VBox {
 	private void layoutControls() {
 		setPadding(new Insets(20));
 		setSpacing(20);
+		shuffle.setOnAction(event->FXCollections.shuffle(observableList));
+		
 		getChildren().addAll(toolBar, listView);
 	}
 }
