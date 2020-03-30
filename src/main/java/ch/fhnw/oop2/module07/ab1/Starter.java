@@ -13,7 +13,7 @@ public class Starter extends Application {
 
 		Scene scene = new Scene(rootPanel);
 
-		primaryStage.setTitle("JavaFX app");
+		primaryStage.setTitle("AB1");
 		primaryStage.setScene(scene);
 
 		primaryStage.setWidth(400);
